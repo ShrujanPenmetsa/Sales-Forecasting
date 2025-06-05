@@ -25,13 +25,13 @@ Panel statistics were used to normalize metrics and account for varying panel si
 
 # Modeling Strategy
 
-    Built individual linear regression models per restaurant due to limited data points.
+Built individual linear regression models per restaurant due to limited data points.
 
-    Prioritized interpretability using p-values and correlation analysis.
+Prioritized interpretability using p-values and correlation analysis.
 
-    Models were evaluated using Adjusted R² and Mean Squared Error (MSE).
+Models were evaluated using Adjusted R² and Mean Squared Error (MSE).
 
-    Found that:
+Found that:
 
         Transaction per Panelist YoY and Spend per Panelist YoY were consistently strong predictors.
 
@@ -39,12 +39,12 @@ Panel statistics were used to normalize metrics and account for varying panel si
 
 # Sentiment Analysis
 
-    Analyzed customer reviews using:
+Analyzed customer reviews using:
 
         TextBlob for initial sentiment scoring
 
         RoBERTa (Hugging Face) for context-aware sentiment classification
 
-    Aggregated sentiment polarity and labeled reviews as positive/negative.
+Aggregated sentiment polarity and labeled reviews as positive/negative.
 
-    Created word clouds to extract common themes across restaurants, identifying drivers of satisfaction and dissatisfaction (e.g., food quality, wait time, service).
+Created word clouds to extract common themes across restaurants, identifying drivers of satisfaction and dissatisfaction (e.g., food quality, wait time, service).
